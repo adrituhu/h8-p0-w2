@@ -1,5 +1,12 @@
-var nama=prompt ("input your name");
-var peran=prompt ("input your role 1 ksatria 2 tabib 3 penyihir");
+var nama="";
+var peran="";
+
+if(nama =="") {
+  console.log(" tolong masukkan nama anda ");
+    }
+if(peran == "") {
+  console.log(" Silahkan isi peran anda ");
+    }
 
 if(peran == 1) {
   console.log("  Halo ksatria " + nama + " Selamat datang di Dunia Proxytia " + nama + " kamu dapat menyerang dengan senjatamu ");
