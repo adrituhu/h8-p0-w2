@@ -1,18 +1,19 @@
-var tanggal =prompt ("masukkan tanggal");
-var bulan =prompt ("masukkan bulan");
-var tahun =prompt ("masukkan bulan");
+var tanggal =" ";
+var bulan ="";
+var tahun ="";
 switch(bulan) {
-  case "1":   { console.log( tanggal  +  ' Januari '   +  tahun ); break; }
-  case "2":   { console.log( tanggal  +  ' Februari '   +  tahun ); break; }
-  case "3":   { console.log( tanggal  +  ' Maret '   +  tahun ); break; }
-  case "4":   { console.log( tanggal  +  ' April '   +  tahun ); break; }
-  case "5":   { console.log( tanggal  +  ' Mei '   +  tahun ); break; }
-  case "6":   { console.log( tanggal  +  ' Juni '   +  tahun ); break; }
-  case "7":   { console.log( tanggal  +  ' July '   +  tahun ); break; }
-  case "8":   { console.log( tanggal  +  ' Agustus '   +  tahun ); break; }
-  case "9":   { console.log( tanggal  +  ' September '   +  tahun ); break; }
-  case "10":   { console.log( tanggal  +  ' Oktober '   +  tahun ); break; }
-  case "11":   { console.log( tanggal  +  ' November '   +  tahun ); break; }
-  case "12":   { console.log( tanggal  +  ' Desember '   +  tahun ); break; }
-  default:   { console.log( undefined  ); break; }
+  case "1":   {  ' Januari ' ; break; }
+  case "2":   {  ' Februari ' ; break; }
+  case "3":   {  ' Maret ' ; break; }
+  case "4":   {  ' April ' ; break; }
+  case "5":   {  ' Mei '; break; }
+  case "6":   {  ' Juni ' ; break; }
+  case "7":   { ' July ' ; break; }
+  case "8":   {  ' Agustus ' ; break; }
+  case "9":   {  ' September ' ; break; }
+  case "10":   { ' Oktober ' ; break; }
+  case "11":   { ' November '; break; }
+  case "12":   { ' Desember '; break; }
+  default:   ( undefined  ); break; }
 } 
+{ console.log( tanggal  +  ' bulan '   +  tahun ); break; }
